@@ -315,3 +315,103 @@ h1{
     
     
 }
+
+@media only screen and (max-width: 600px) {
+    /* Adicione estas regras específicas para telas menores */
+
+    body {
+        padding: 10px; /* Adapte o espaçamento conforme necessário para telas menores */
+    }
+
+    .nav-links {
+        margin-top: 20px; /* Ajuste conforme necessário para o espaçamento do topo */
+    }
+
+    .profile-picture {
+        display: none; /* Ocultar a imagem do perfil em telas menores */
+    }
+
+    .aboutme {
+        text-align: left; /* Alinhar o texto à esquerda em telas menores */
+        max-width: 100%; /* Garantir que o texto não ultrapasse a largura da tela */
+        position: static;
+        transform: none;
+        margin: 20px 0;
+    }
+
+    .apresentaçao {
+        margin-bottom: 20px;
+    }
+
+    .backpagina {
+        margin-bottom: 20px;
+    }
+
+    .projetos-container {
+        margin-top: 300px;
+    }
+
+    .projetos-container a {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .projetos-container p {
+        font-size: 12px;
+        margin-bottom: 20px; /* Adicionar espaço entre o texto e o textlink */
+    }
+
+    .twitter a,
+    .instagram a,
+    .linkedin a,
+    .gmail a,
+    .linkedin a,
+    .github a {
+        position: static;
+        display: block; /* Alterar para bloco para que os links fiquem um abaixo do outro */
+        text-align: center; /* Centralizar o texto */
+        margin: -180px auto 180px; /* Adicionar margem inferior para espaçamento entre os links */
+        left: auto; /* Remover a propriedade left */
+        transform: none; /* Remover a transformação */
+
+        
+    }
+
+
+
+
+
+
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        body {
+            padding: 20px; /* Ou qualquer outro valor adequado para telas de tablet */
+        }
+    
+        .nav-links {
+            margin-top: 40px;
+        }
+    
+        .projetos-container {
+            margin-top: 100px;
+        }
+    
+        .contatos {
+            margin-top: 85px;
+        }
+    
+        .twitter a,
+        .instagram a,
+        .linkedin a,
+        .gmail a,
+        .linkedin a,
+        .github a {
+            margin: 0 auto 15px;
+        }
+    }
+
+
+    
+}
+
+
+
