@@ -12,7 +12,7 @@
  body{
     margin: 0;
     padding: 0;
-    background-color: #404040; /*cor cinza de fundo*/
+    background-color: #404040; 
    
     height: 100vh; /* altura do viewport*/
     display: flex;
@@ -41,9 +41,9 @@ h1{
 .nav-links {
     list-style: none;
     display: flex;
-    flex-direction: column; /* Alterado para column para que os itens fiquem um abaixo do outro */
+    flex-direction: column; 
     align-items: flex-start;
-    margin-top: 40px; /* Ajuste conforme necessário para o espaçamento do topo */
+    margin-top: 40px; 
 }
 
 .nav-links li {
@@ -65,18 +65,17 @@ h1{
 
 .profile-picture {
     position: absolute;
-    top: 150px; /* Ajuste conforme necessário para a posição vertical */
-    right: 200px; /* Ajuste conforme necessário para a posição horizontal */
-    width: 300px; /* Ajuste o tamanho conforme necessário */
-    height: 300px;
-    border: 3px solid #808080; /* Cor da borda cinza */
-    border-radius: 50%; /* Para uma borda arredondada */
+    top: 150px; 
+    right: 200px; 
+    width: 300px; 
+    border: 3px solid #808080; 
+    border-radius: 50%; 
 }
 
 .profile-picture img {
-    width: 100%; /* Garante que a imagem ocupe 100% do contêiner */
+    width: 100%; 
     height: 100%;
-    border-radius: 50%; /* Para uma borda arredondada na imagem */
+    border-radius: 50%; 
 }
 
 .aboutme {
@@ -99,11 +98,11 @@ h1{
 }
 
 .backpagina{
-    color: white; /* Cor branca */
+    color: white; 
     text-decoration: none;
     display: inline-block;
     padding: 10px;
-    background-color: #333; /* Cor de fundo, ajuste conforme necessário */
+    background-color: #333; 
     border-radius: 5px;
     transition: background-color 0.3s ease;
     position: absolute;
@@ -136,7 +135,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-size: 44px;
-    display: block; /* Garante que cada link ocupe uma linha completa */
+    display: block; 
     position: relative;
     letter-spacing: 15px;
     transition: opacity 0.3s ease;
@@ -150,7 +149,7 @@ h1{
     color: white;
     margin-top: -25px;
     position: absolute;
-     /* Posiciona o texto à direita */
+     
     font-size: 16px;
     
 }
@@ -178,15 +177,15 @@ h1{
     opacity: 0.9;
     max-width: 300px;
     padding: 10px;
-    top: 48%; /* Posiciona o elemento no meio verticalmente */
-    left: 50%; /* Posiciona o elemento no meio horizontalmente */
-    transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro */
+    top: 48%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     margin: 0;
     color: white;
     font-family: "Prompt", sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-decoration: none; /* Remove o sublinhado do link */
+    text-decoration: none; 
     display: inline-block; /* Permite ajustar a largura e altura do elemento */
     font-size: 23px;
     transition: opacity 0.3s ease;
@@ -202,16 +201,16 @@ h1{
     opacity: 0.9;
     max-width: 300px;
     padding: 10px;
-    top: 48%; /* Posiciona o elemento no meio verticalmente */
-    left: 70%; /* Posiciona o elemento no meio horizontalmente */
-    transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro */
+    top: 48%; 
+    left: 70%; 
+    transform: translate(-50%, -50%); 
     margin: 0;
     color: white;
     font-family: "Prompt", sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-decoration: none; /* Remove o sublinhado do link */
-    display: inline-block; /* Permite ajustar a largura e altura do elemento */
+    text-decoration: none; 
+    display: inline-block; 
     font-size: 25px;
     transition: opacity 0.3s ease;
 }
@@ -226,16 +225,16 @@ h1{
     opacity: 0.9;
     max-width: 300px;
     padding: 10px;
-    top: 48%; /* Posiciona o elemento no meio verticalmente */
-    left: 30%; /* Posiciona o elemento no meio horizontalmente */
-    transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro */
+    top: 48%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
     margin: 0;
     color: white;
     font-family: "Prompt", sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-decoration: none; /* Remove o sublinhado do link */
-    display: inline-block; /* Permite ajustar a largura e altura do elemento */
+    text-decoration: none; 
+    display: inline-block; 
     font-size: 25px;
     transition: opacity 0.3s ease;
 
@@ -251,16 +250,16 @@ h1{
     opacity: 0.9;
     max-width: 300px;
     padding: 10px;
-    top: 48%; /* Posiciona o elemento no meio verticalmente */
-    left: 18%; /* Posiciona o elemento no meio horizontalmente */
-    transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro */
+    top: 48%; 
+    left: 18%; 
+    transform: translate(-50%, -50%); 
     margin: 0;
     color: white;
     font-family: "Prompt", sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-decoration: none; /* Remove o sublinhado do link */
-    display: inline-block; /* Permite ajustar a largura e altura do elemento */
+    text-decoration: none; 
+    display: inline-block; 
     font-size: 25px;
     transition: opacity 0.3s ease;
 
@@ -277,16 +276,16 @@ h1{
     opacity: 0.9;
     max-width: 300px;
     padding: 10px;
-    top: 48%; /* Posiciona o elemento no meio verticalmente */
-    left: 83%; /* Posiciona o elemento no meio horizontalmente */
-    transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro */
+    top: 48%; 
+    left: 83%; 
+    transform: translate(-50%, -50%); 
     margin: 0;
     color: white;
     font-family: "Prompt", sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-decoration: none; /* Remove o sublinhado do link */
-    display: inline-block; /* Permite ajustar a largura e altura do elemento */
+    text-decoration: none; 
+    display: inline-block; 
     font-size: 25px;
     transition: opacity 0.3s ease;
 
@@ -317,14 +316,14 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
-    /* Adicione estas regras específicas para telas menores */
+    
 
     body {
-        padding: 10px; /* Adapte o espaçamento conforme necessário para telas menores */
+        padding: 10px; 
     }
 
     .nav-links {
-        margin-top: 20px; /* Ajuste conforme necessário para o espaçamento do topo */
+        margin-top: 20px; 
     }
 
     .profile-picture {
@@ -332,8 +331,8 @@ h1{
     }
 
     .aboutme {
-        text-align: left; /* Alinhar o texto à esquerda em telas menores */
-        max-width: 100%; /* Garantir que o texto não ultrapasse a largura da tela */
+        text-align: left; 
+        max-width: 100%; 
         position: static;
         transform: none;
         margin: 20px 0;
@@ -358,7 +357,7 @@ h1{
 
     .projetos-container p {
         font-size: 12px;
-        margin-bottom: 20px; /* Adicionar espaço entre o texto e o textlink */
+        margin-bottom: 20px; /
     }
 
     .twitter a,
@@ -368,11 +367,11 @@ h1{
     .linkedin a,
     .github a {
         position: static;
-        display: block; /* Alterar para bloco para que os links fiquem um abaixo do outro */
-        text-align: center; /* Centralizar o texto */
-        margin: -180px auto 180px; /* Adicionar margem inferior para espaçamento entre os links */
-        left: auto; /* Remover a propriedade left */
-        transform: none; /* Remover a transformação */
+        display: block; 
+        text-align: center; 
+        margin: -180px auto 180px; 
+        left: auto; 
+        transform: none; 
 
         
     }
@@ -384,7 +383,7 @@ h1{
 
     @media only screen and (min-width: 601px) and (max-width: 1024px) {
         body {
-            padding: 20px; /* Ou qualquer outro valor adequado para telas de tablet */
+            padding: 20px; 
         }
     
         .nav-links {
